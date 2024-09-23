@@ -1,0 +1,302 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", system-ui;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.logo {
+    width: 150px;
+    margin-top: 15px;
+}
+
+.List-items {
+    list-style: none;
+    display: inline;
+    margin: 0px 20px;
+}
+
+.list {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.list:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+#home-content {
+    /* top right bottom left */
+    margin: 150px 0px 0px 70px;
+}
+
+#userfname {
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: "Sevillana", system-ui;
+
+}
+
+#user-lname {
+    font-family: "Sevillana", system-ui;
+    color: rgb(234, 186, 12);
+}
+
+#user-details {
+    line-height: 1.2;
+}
+
+.download {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+
+.home-image {
+    width: 45%;
+    height: 100%;
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+    top: 100px;
+}
+
+.image {
+    position: absolute;
+    height: 80%;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.home-image:hover #shape {
+    bottom: 53px;
+    transition: 2s;
+}
+
+.home-image:hover #boy {
+
+    left: 45%;
+    transition: 2s;
+}
+
+#about {
+    margin: 19% 8% 0% 8%;
+}
+
+.sectionhead {
+    text-align: center;
+}
+
+.mainhead {
+    font-size: 30px;
+    font-family: "Playfair Display", serif;
+}
+
+
+.subhead {
+    font-size: 20px;
+    color: rgb(90, 99, 120);
+    font-family: "Protest Guerrilla", system-ui;
+}
+
+.aboutme {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 30px;
+}
+
+
+.img1 {
+    width: 100%;
+}
+
+.aboutcontent {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.informations {
+    margin-top: 20px;
+}
+
+.info {
+    margin-bottom: 8px;
+}
+
+.info-details {
+    margin-left: 15px;
+}
+
+
+#skills {
+    margin: 8% 8% 0px 8%;
+}
+
+.skill-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+    margin-top: 20px;
+}
+
+.bars {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 1rem 0px;
+}
+
+.mainHead,
+.percentage {
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.basebar {
+    width: 100%;
+    height: 0.5rem;
+    border-radius: 10px;
+    background-color: black;
+    position: absolute;
+    margin-top: 40px;
+}
+
+.htmlbar{
+    background-color: orange;
+    width: 89%;
+}
+
+.cssbar{
+    background-color: orange;
+    width: 94%;
+}
+
+.jsbar{
+    background-color: orange;
+    width: 86%;
+}
+
+.reactbar{
+    background-color: orange;
+    width: 95%;
+}
+
+#contacts{
+    margin-top: 8%;
+}
+.icon-collection{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px;
+}
+
+.brands{
+    color: black;
+    font-size: 2rem;
+}
+
+.icons:hover{
+    background-image: linear-gradient(to bottom right,rgb(111, 7, 73),rgb(8, 83, 234),rgb(8, 231, 172));
+}
+
+.icons:hover .brands{
+    color: white;
+
+    /* Animation */
+    animation: rotate 5s;
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(30deg);
+    }
+
+    20%{
+        transform: rotate(-30deg);
+    }
+
+    40%{
+        transform: rotate(30deg);
+    }
+
+    60%{
+        transform: rotate(-30deg);
+    }
+
+    80%{
+        transform: rotate(30deg);
+    }
+
+    100%{
+        transform: rotate(-30deg);
+    }
+}
+
+footer{
+    margin-top: 8%;
+}
+
+.copyright{
+    text-align: center;
+    font-weight: 500;
+}
+
+.arrow{
+    float: right;
+    margin-top: -35px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: azure;
+}
+
+::-webkit-scrollbar-thumb{
+    background-image: linear-gradient(to bottom right,rgb(111, 7, 73),rgb(8, 83, 234),rgb(8, 231, 172));
+    border-radius: 10px;
+}

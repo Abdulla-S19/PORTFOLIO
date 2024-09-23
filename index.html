@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- Font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google fonts Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nerko+One&family=Playwrite+CU:wght@100..400&family=Protest+Guerrilla&family=Reddit+Sans+Condensed:wght@200..900&family=Roboto:wght@400;500;700&family=Sevillana&display=swap"
+        rel="stylesheet">
+    <!-- Animate style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- AOS Animation  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="container">
+        <!-- Navbar -->
+
+        <nav>
+            <!-- Logo -->
+            <img class="logo" src="./Images/AB19.png" alt="NO image">
+
+            <!-- Links -->
+            <ul>
+                <li class="List-items"><a class="list" href="#home-content">HOME</a></li>
+                <li class="List-items"><a class="list" href="#about">ABOUT ME</a></li>
+                <li class="List-items"><a class="list" href="#skills">SKILLS</a></li>
+                <li class="List-items"><a class="list" href="#contacts">CONTACT</a></li>
+
+            </ul>
+
+        </nav>
+
+        <!--Home  -->
+        <section>
+            <!-- Home Content -->
+            <div id="home-content">
+                <h1 class="animate__animated animate__lightSpeedInLeft" id="userfname">I'm Abdulla <span
+                        id="user-lname">S</span></h1>
+                <p id="user-details">This is my official Portfolio website to describe all
+                    <br>
+                    details and work experience in Web Development
+                </p>
+                <a class="download" href="./Images/ABDULLA-S-Resume.pdf" download>DOWNLOAD CV</a>
+            </div>
+
+
+            <!-- Home Image -->
+            <div class="home-image">
+                <!-- Shape -->
+                <img id="shape" class="image" src="./Images/Image 2.png" alt="">
+                <!-- Girl -->
+                <img id="boy" class="image" src="./Images/boy.png" alt="">
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="about">
+            <div class="sectionhead">
+                <h2 class="mainhead">ABOUT ME</h2>
+                <span class="subhead">Introduction</span>
+            </div>
+
+
+            <div class="aboutme">
+                <div data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine" class="aboutimage">
+                    <img class="img1" src="./Images/info1-removebg-preview.png" alt="">
+                </div>
+                <div class="aboutcontent">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem est, consequuntur minima
+                        consectetur officia illum veniam, praesentium illo atque debitis, perspiciatis eius quia
+                        laboriosam? Suscipit nobis facere tempora rerum eveniet.
+                    </p>
+                    <div class="informations">
+                        <div class="info">
+                            <div class="infobox">
+                                <i class="fa-solid fa-user"></i>
+                                <span class="info-details">ABDULLA S</span>
+                            </div>
+                        </div>
+
+                        <div class="info">
+                            <div>
+                                <i class="fa-solid fa-phone"></i>
+                                <span class="info-details">8547854820</span>
+                            </div>
+                        </div>
+
+                        <div class="info">
+                            <div>
+                                <i class="fa-solid fa-envelope"></i>
+                                <span class="info-details">abd.s.abdulla19@gmail.com</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+        </section>
+
+        <!-- Skills -->
+        <section id="skills">
+            <div class="sectionhead">
+                <h2 class="mainhead">SKILLS</h2>
+                <span class="subhead">My Skills</span>
+            </div>
+
+            <div class="skill-content">
+                <div class="progress-bar">
+                    <!-- Progress Bars -->
+                    <div class="bars">
+
+                        <h3 class="mainHead">HTML</h3>
+                        <span class="percentage">89%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right"
+                         class="basebar htmlbar"></div>
+
+                    </div>
+
+                    <div class="bars">
+                        <h3 class="mainHead">CSS</h3>
+                        <span class="percentage">94%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right"
+                         class="basebar cssbar"></div>
+                    </div>
+
+                    <div class="bars">
+                        <h3 class="mainHead">JS</h3>
+                        <span class="percentage">86%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right"
+                         class="basebar jsbar"></div>
+                    </div>
+
+                    <div class="bars">
+                        <h3 class="mainHead">React</h3>
+                        <span class="percentage">95%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right"
+                         class="basebar reactbar"></div>
+                    </div>
+
+                </div>
+                <div data-aos="flip-down" class="image-skill">
+                    <img width="100%" class="skill-image" src="./Images/success.webp" alt="">
+                </div>
+            </div>
+
+        </section>
+
+        <section id="contacts">
+            <div class="sectionhead">
+                <h2 class="mainhead">Contacts</h2>
+                <span class="subhead">My Contacts</span>
+            </div>
+
+            <div class="icon-collection">
+                <!-- Linkedin -->
+                <div class="icons"><a href="https://www.linkedin.com/in/abdulla19/" target="blank"><i
+                            class="fa-brands fa-linkedin brands"></i></a></div>
+
+                <!-- Github -->
+
+                <div class="icons"><a href="https://www.linkedin.com/in/abdulla19/" target="blank"><i
+                            class="fa-brands fa-github brands"></i></a></div>
+
+
+                <!-- Twitter -->
+                <div class="icons"><a href="https://www.linkedin.com/in/abdulla19/" target="blank"><i
+                            class="fa-brands fa-twitter brands"></i></a></div>
+
+                <!-- Facebook -->
+                <div class="icons"><a href="https://www.linkedin.com/in/abdulla19/" target="blank"><i
+                            class="fa-brands fa-facebook brands"></i></a></div>
+
+                <!-- Instagram -->
+                <div class="icons"><a href="https://www.linkedin.com/in/abdulla19/" target="blank"><i
+                            class="fa-brands fa-instagram brands"></i></a></div>
+
+                <!-- Mail -->
+                <div class="icons"><a href="https://www.linkedin.com/in/abdulla19/" target="blank"> <i
+                            class="fa-solid fa-envelope brands"></i></a></div>
+
+
+            </div>
+
+        </section>
+
+        <footer>
+            <p class="copyright">&copy; My Portfolio website September 2024,All rights reserved to &reg;Abdulla S.</p>
+            <div class="icons arrow"><a href="#container"><i class="fa-solid fa-angle-up brands"></i></a></div>
+        </footer>
+
+    </div>
+
+</body>
+
+
+<!-- AOS Script -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</html>
